@@ -57,9 +57,23 @@ Collected using PRAW. Includes:
 <details id="trend-lifecycle-analysis">
 <summary><strong>Trend Lifecycle & Temporal Patterns</strong></summary>
 
-This section examines how food trends emerge, peak, and decline over time using YouTube upload activtity and view counts.
+This section examines how food trends evolve over time by comparing public curiosity, creator adoption, and audience attention. Together, these signals distinguish short lived viral trends from those that achieve sustained cultural or practical relevance. 
 
+### Public Interest Over Time
+![Google Search Interest Over Time](Analysis_Plots/pytrends_searchInterest.png)
+*Google Trends search interest (0-100) showing when public curiosity emerges, peaks, and declines for each trend.*
+
+### Content Creation Dynamics
 ![Weekly YouTube Uploads](Analysis_Plots/trend_plots.png)
+*Weekly YouTube video uploads highlighting differences between rapid viral adoption and gradual, sustained content growth.*
+
+### Audience Attention and Reach
+![Weekly Total Views per Trend](Analysis_Plots/trend_plots2.png)
+*Weekly total YouTube views showing how audience attention scales and concentrates across different trend lifecycles.*
+
+### Trend Lifecycle
+![Trend Lifecycle Spiral](Analysis_Plots/trend_plots2.png)
+*Spiral visualization summarizing the pace and duration of each trend's lifecycle, contrasting viral bursts with long term adoption*
 
 </details>
 
