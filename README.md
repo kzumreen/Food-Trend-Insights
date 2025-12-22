@@ -85,16 +85,16 @@ This section examines how food trends evolve over time by comparing public curio
 We explored how digital food trends spread geographically and how adoption varies across regions. Using Google Trends data, we map relative search interest to identify each trend's regional concentration and degree of global diffusion.
 
 ### Regional Interest by Trend
-![Matcha Geographic Diffusion](Analysis_Plots/Matcha Map.jpg)
+![Matcha Geographic Diffusion](Analysis_Plots/Matcha_Map.jpg)
 *Geographic distribution of search interest for Matcha, showing widespread and sustained global adoption.*
 
-![Dubai Chocolate Geographic Diffusion](Analysis_Plots/Dubai Chocolate Map.jpg)
+![Dubai Chocolate Geographic Diffusion](Analysis_Plots/Dubai_Chocolate_Map.jpg)
 *Search interest for Dubai Chocolate, highlighting strong regional concentration centered around its point of origin.*
 
-![Baked Feta Pasta Geographic Diffusion](Analysis_Plots/Baked Feta Cheese Map.jpg)
+![Baked Feta Pasta Geographic Diffusion](Analysis_Plots/Baked_Feta_Cheese_Map.jpg)
 *Geographic diffusion of Baked Feta Pasta, illustrating a short-lived viral spread with limited long-term regional adoption.*
 
-![Air Fryer Geographic Diffusion](Analysis_Plots/Air Fryer Map.jpg)
+![Air Fryer Geographic Diffusion](Analysis_Plots/Air_Fryer_Map.jpg)
 *Regional adoption of Air Fryer searches, reflecting broad and sustained interest consistent with utility-driven diffusion.*
 
 </details>
