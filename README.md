@@ -57,15 +57,9 @@ Collected using PRAW. Includes:
 <details id="trend-lifecycle-analysis">
 <summary><strong>Trend Lifecycle & Temporal Patterns</strong></summary>
 
-Includes:
-- Weekly YouTube upload trends  
-- View count evolution over time  
-- Viral spikes (e.g., Feta Pasta 2021)  
-- Long-term cultural adoption (e.g., Matcha, Air Fryer)  
-- Spiral lifecycle visualization showing pace of trend growth  
+This section examines how food trends emerge, peak, and decline over time using YouTube upload activtity and view counts.
 
-This section answers:  
-📌 *How long do trends last? When do they peak? Do they fade or stabilize?*
+![Weekly YouTube Uploads](Analysis_Plots/trend_plots.png)
 
 </details>
 
