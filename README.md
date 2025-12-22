@@ -82,14 +82,20 @@ This section examines how food trends evolve over time by comparing public curio
 <details id="geographic-diffusion">
 <summary><strong>Geographic Diffusion of Trends</strong></summary>
 
-Includes choropleth maps showing regional spread for:
-- **Matcha** (global cultural adoption)  
-- **Dubai Chocolate** (localized influencer-driven trend)  
-- **Air Fryer** (utility-driven global adoption)  
-- **Feta Pasta** (viral-burst trend originating in the U.S.)  
+We explored how digital food trends spread geographically and how adoption varies across regions. Using Google Trends data, we map relative search interest to identify each trend's regional concentration and degree of global diffusion.
 
-This section addresses:  
-📌 *Where do trends originate? How do they travel across countries? Why do some remain local while others become global?*
+### Regional Interest by Trend
+![Matcha Geographic Diffusion](Analysis_Plots/Matcha Map.jpg)
+*Geographic distribution of search interest for Matcha, showing widespread and sustained global adoption.*
+
+![Dubai Chocolate Geographic Diffusion](Analysis_Plots/Dubai Chocolate Map.jpg)
+*Search interest for Dubai Chocolate, highlighting strong regional concentration centered around its point of origin.*
+
+![Baked Feta Pasta Geographic Diffusion](Analysis_Plots/Baked Feta Cheese Map.jpg)
+*Geographic diffusion of Baked Feta Pasta, illustrating a short-lived viral spread with limited long-term regional adoption.*
+
+![Air Fryer Geographic Diffusion](Analysis_Plots/Air Fryer Map.jpg)
+*Regional adoption of Air Fryer searches, reflecting broad and sustained interest consistent with utility-driven diffusion.*
 
 </details>
 
