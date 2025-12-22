@@ -136,25 +136,4 @@ What this section reveals:
 
 </details>
 
----
-
-<details id="cross-platform-comparison">
-<summary><strong>Cross-Platform Comparative Analysis</strong></summary>
-
-Includes synchronized weekly activity across:
-- **Google Trends** (search interest)  
-- **YouTube** (content creation + views)  
-- **Reddit** (discussion + sentiment)  
-
-Key conclusion:  
-📌 Trends typically follow the sequence — **Search → Creation → Community Discussion**  
-
-Examples:
-- Dubai Chocolate: Search interest → YouTube uploads → Reddit conversations  
-- Feta Pasta: Sharp synchronized viral spike across all platforms  
-- Matcha + Air Fryer: Long-term slow growth across ecosystems  
-
-This section ties everything together.
-
-</details>
 
