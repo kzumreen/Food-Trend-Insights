@@ -57,15 +57,23 @@ Collected using PRAW. Includes:
 <details id="trend-lifecycle-analysis">
 <summary><strong>Trend Lifecycle & Temporal Patterns</strong></summary>
 
-Includes:
-- Weekly YouTube upload trends  
-- View count evolution over time  
-- Viral spikes (e.g., Feta Pasta 2021)  
-- Long-term cultural adoption (e.g., Matcha, Air Fryer)  
-- Spiral lifecycle visualization showing pace of trend growth  
+This section examines how food trends evolve over time by comparing public curiosity, creator adoption, and audience attention. Together, these signals distinguish short lived viral trends from those that achieve sustained cultural or practical relevance. 
 
-This section answers:  
-📌 *How long do trends last? When do they peak? Do they fade or stabilize?*
+### Public Interest Over Time
+![Google Search Interest Over Time](Analysis_Plots/pytrends_searchInterest.png)
+*Google Trends search interest (0-100) showing when public curiosity emerges, peaks, and declines for each trend.*
+
+### Content Creation Dynamics
+![Weekly YouTube Uploads](Analysis_Plots/trend_plots.png)
+*Weekly YouTube video uploads highlighting differences between rapid viral adoption and gradual, sustained content growth.*
+
+### Audience Attention and Reach
+![Weekly Total Views per Trend](Analysis_Plots/trend_plots2.png)
+*Weekly total YouTube views showing how audience attention scales and concentrates across different trend lifecycles.*
+
+### Trend Lifecycle
+![Trend Lifecycle Spiral](Analysis_Plots/trend_plots2.png)
+*Spiral visualization summarizing the pace and duration of each trend's lifecycle, contrasting viral bursts with long term adoption*
 
 </details>
 
@@ -74,14 +82,20 @@ This section answers:
 <details id="geographic-diffusion">
 <summary><strong>Geographic Diffusion of Trends</strong></summary>
 
-Includes choropleth maps showing regional spread for:
-- **Matcha** (global cultural adoption)  
-- **Dubai Chocolate** (localized influencer-driven trend)  
-- **Air Fryer** (utility-driven global adoption)  
-- **Feta Pasta** (viral-burst trend originating in the U.S.)  
+We explored how digital food trends spread geographically and how adoption varies across regions. Using Google Trends data, we map relative search interest to identify each trend's regional concentration and degree of global diffusion.
 
-This section addresses:  
-📌 *Where do trends originate? How do they travel across countries? Why do some remain local while others become global?*
+### Regional Interest by Trend
+![Matcha Geographic Diffusion](Analysis_Plots/Matcha%20Map.jpg)
+*Geographic distribution of search interest for Matcha, showing widespread and sustained global adoption.*
+
+![Dubai Chocolate Geographic Diffusion](Analysis_Plots/Dubai%20Chocolate%20Map.jpg)
+*Search interest for Dubai Chocolate, highlighting strong regional concentration centered around its point of origin.*
+
+![Baked Feta Pasta Geographic Diffusion](Analysis_Plots/Baked%20Feta%20Cheese%20Map.jpg)
+*Geographic diffusion of Baked Feta Pasta, illustrating a short-lived viral spread with limited long-term regional adoption.*
+
+![Air Fryer Geographic Diffusion](Analysis_Plots/Air%20Fryer%20Map.jpg)
+*Regional adoption of Air Fryer searches, reflecting broad and sustained interest consistent with utility-driven diffusion.*
 
 </details>
 
@@ -90,17 +104,17 @@ This section addresses:
 <details id="sentiment-analysis">
 <summary><strong>Sentiment Analysis</strong></summary>
 
-Includes:
-- VADER sentiment scoring  
-- Distribution plots of positive/neutral/negative posts  
-- Rolling sentiment over time  
-- Comparisons across trends  
+We used the VADER (Valence Aware Dictionary and Sentiment Reasoner) lexicon to analyze the tone of Reddit discussions. This allowed us to classify trends as long-term or short-lived based on whether community sentiment remained positive and diverse over time.
 
-Key insights:
-- **Matcha** → consistently positive, steady cultural integration  
-- **Feta Pasta** → spike + rapid decline in sentiment after viral moment  
-- **Dubai Chocolate** → rising sentiment due to growing novelty  
-- **Air Fryer** → stable and neutral (utility-driven)  
+### Sentiment Distribution and Evolution
+![Sentiment Distribution](Analysis_Plots/sentiment_comparison.png)
+*This chart breaks down the overall sentiment for each trend. While utility-based trends like the Air Fryer are overwhelmingly neutral/positive, viral trends show higher volatility.*
+
+![Sentiment Over Time](Analysis_Plots/sentiment_distribution.png)
+*By tracking sentiment over a 5-year period, we identified that 'Matcha' maintains high positive sentiment, whereas 'Baked Feta Pasta' experienced a sharp sentiment decline immediately following its viral peak.*
+
+![Score Distribution](Analysis_Plots/sentiment_categorybreakdown.png)
+*This density plot illustrates the 'emotional consistency' of each trend. A tighter peak indicates a more unified public opinion.*
 
 </details>
 
@@ -122,25 +136,4 @@ What this section reveals:
 
 </details>
 
----
-
-<details id="cross-platform-comparison">
-<summary><strong>Cross-Platform Comparative Analysis</strong></summary>
-
-Includes synchronized weekly activity across:
-- **Google Trends** (search interest)  
-- **YouTube** (content creation + views)  
-- **Reddit** (discussion + sentiment)  
-
-Key conclusion:  
-📌 Trends typically follow the sequence — **Search → Creation → Community Discussion**  
-
-Examples:
-- Dubai Chocolate: Search interest → YouTube uploads → Reddit conversations  
-- Feta Pasta: Sharp synchronized viral spike across all platforms  
-- Matcha + Air Fryer: Long-term slow growth across ecosystems  
-
-This section ties everything together.
-
-</details>
 
