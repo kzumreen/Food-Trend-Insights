@@ -10,7 +10,7 @@ This is university capstone project exploring the lifecycle of digital food tren
 - [Data Sources](#data-sources)
 - [Trend Lifecycle Analysis](#trend-lifecycle-analysis)
 - [Geographic Diffusion](#geographic-diffusion)
-- [Sentiment Analysis](#sentiment-analysis)
+- [Sentiment and Discussion Analysis](#sentiment-and-discussion-analysis)
 - [Topic Modeling (LDA)](#topic-modeling-lda)
 - [Cross-Platform Comparison](#cross-platform-comparison)
 
@@ -101,20 +101,20 @@ We explored how digital food trends spread geographically and how adoption varie
 
 ---
 
-<details id="sentiment-analysis">
-<summary><strong>Sentiment Analysis</strong></summary>
+<details id="#sentiment-and-discussion-analysis">
+<summary><strong>Sentiment and Discussion Analysis</strong></summary>
 
 We used the VADER (Valence Aware Dictionary and Sentiment Reasoner) lexicon to analyze the tone of Reddit discussions. This allowed us to classify trends as long-term or short-lived based on whether community sentiment remained positive and diverse over time.
 
 ### Sentiment Distribution and Evolution
-![Sentiment Distribution](Analysis_Plots/sentiment_comparison.png)
-*This chart breaks down the overall sentiment for each trend. While utility-based trends like the Air Fryer are overwhelmingly neutral/positive, viral trends show higher volatility.*
+![Sentiment Distribution](Analysis_Plots/wordclouds.png)
+*This word cloud depicts the most frequently used terms for each trend, unocvering unique patterns that represent how users discuss food trends online. For feta pasta, these posts have an importance on recipe creation and virality with words like "tomato", "tiktok", and "baked". This reflects that feta pasta was a short term viral recipe. Matcha, on the other hand, has discussions that focus around preparation with terms like “ceremonial”, “powder”, and “latte”. This differs from feta pasta as matcha’s terms have more of an emphasis on everyday consumption rather than a short term viral trend. Meanwhile, Dubai Chocolate posts are more purchasing and spending forward than the other two, as they contain terms like “pistaschio”, “order”, and “pasabuy”.*
 
-![Sentiment Over Time](Analysis_Plots/sentiment_distribution.png)
-*By tracking sentiment over a 5-year period, we identified that 'Matcha' maintains high positive sentiment, whereas 'Baked Feta Pasta' experienced a sharp sentiment decline immediately following its viral peak.*
+![Sentiment Over Time](Analysis_Plots/sentiment_comparison.png)
+*This sentiment distribution shows that majority of the posts cluster near zero for all 3 trends, suggesting that most discussions are more neutral compared to strongly emotional. Matcha however, does have a wider spread toward positive sentiment. This may be due to Matcha’s associations with health and everyday consumption. On the other hand, Feta Pasta has slightly more negative posts, which may be due to a decline in enthusiasm after the trend faded. Dubai Chocolate has a narrow and modest positive sentiment implying that it has favorable but less engagement.*
 
-![Score Distribution](Analysis_Plots/sentiment_categorybreakdown.png)
-*This density plot illustrates the 'emotional consistency' of each trend. A tighter peak indicates a more unified public opinion.*
+![Score Distribution](Analysis_Plots/average_sentiment.png)
+*The average sentiment for each trend with daily sentiment scores and a 7 day rolling average shows that Matcha has a stable and slightly positive sentiment over time. This may be because matcha has been adapted into everyday routines and therefore has sustained its popularity. Feta pasta has changed drastically over time. It had a spike in 2021 when it was viral before dropping as the interest declined. The sentiment for Dubai Chocolate is still increasing in 2025, which shows the growing popularity of this continuing trend. The patterns seen in this plot show how long term trends are able to sustain positive sentiment, while short term viral trends have temporary peaks in enthusiasm before inevitably decaying.*
 
 </details>
 
