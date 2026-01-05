@@ -151,14 +151,10 @@ To uncover the core themes driving these trends, we applied **Latent Dirichlet A
 <details id="cross-platform-analysis">
 <summary><strong>Cross-Platform Comparison</strong></summary>
 
-This section synthesizes data from **Google Trends, YouTube, and Reddit** to identify how food trends ripple through different digital ecosystems. Our analysis reveals a distinct pattern: **Discovery (Search) $\rightarrow$ Amplification (Content) $\rightarrow$ Participation (Discussion).**
+This section compares data from **Google Trends, YouTube, and Reddit** to identify how food trends ripple through different digital ecosystems. Our analysis reveals a distinct pattern: **Discovery (Search) $\rightarrow$ Amplification (Content) $\rightarrow$ Participation (Discussion).**
 
 ### Cross-Platform Engagement Patterns
 ![Cross Platform Comparison](Analysis_Plots/cross_analysis.png) 
-This section compares data from **Google Trends, YouTube, and Reddit** to identify how food trends ripple through different digital ecosystems. Our analysis reveals a distinct pattern: **Discovery (Search) $\rightarrow$ Amplification (Content) $\rightarrow$ Participation (Discussion).**
-
-### The Lifecycle Ripple Effect
-![Cross Platform Comparison](Analysis_Plots/cross_platform_comparison.png) 
 *This visualization depicts how public interest shifts across platforms, uncovering the "lag" between initial curiosity and community-level discussion.*
 
 #### Key Findings by Trend Lifecycle:
