@@ -149,7 +149,7 @@ To uncover the core themes driving these trends, we applied **Latent Dirichlet A
 ---
 
 <details id="cross-platform-analysis">
-<summary><strong>Cross-Platform Comparison & Predictive Modeling</strong></summary>
+<summary><strong>Cross-Platform Comparison</strong></summary>
 
 This section synthesizes data from **Google Trends, YouTube, and Reddit** to identify how food trends ripple through different digital ecosystems. Our analysis reveals a distinct pattern: **Discovery (Search) $\rightarrow$ Amplification (Content) $\rightarrow$ Participation (Discussion).**
 
