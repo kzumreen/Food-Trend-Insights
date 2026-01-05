@@ -107,13 +107,13 @@ We explored how digital food trends spread geographically and how adoption varie
 We used the VADER (Valence Aware Dictionary and Sentiment Reasoner) lexicon to analyze the tone of Reddit discussions. This allowed us to classify trends as long-term or short-lived based on whether community sentiment remained positive and diverse over time.
 
 ### Sentiment Distribution and Evolution
-![Sentiment Distribution](Analysis_Plots/sentiment_dist_plot.png)
+![Sentiment Distribution](Analysis_Plots/sentiment_comparison.png)
 *This chart breaks down the overall sentiment for each trend. While utility-based trends like the Air Fryer are overwhelmingly neutral/positive, viral trends show higher volatility.*
 
-![Sentiment Over Time](Analysis_Plots/sentiment_over_time.png)
+![Sentiment Over Time](Analysis_Plots/sentiment_distribution.png)
 *By tracking sentiment over a 5-year period, we identified that 'Matcha' maintains high positive sentiment, whereas 'Baked Feta Pasta' experienced a sharp sentiment decline immediately following its viral peak.*
 
-![Score Distribution](Analysis_Plots/sentiment_score_distribution.png)
+![Score Distribution](Analysis_Plots/sentiment_categorybreakdown.png)
 *This density plot illustrates the 'emotional consistency' of each trend. A tighter peak indicates a more unified public opinion.*
 
 </details>
