@@ -146,6 +146,8 @@ To uncover the core themes driving these trends, we applied **Latent Dirichlet A
 
 </details>
 
+---
+
 <details id="cross-platform-analysis">
 <summary><strong>Cross-Platform Comparison & Predictive Modeling</strong></summary>
 
