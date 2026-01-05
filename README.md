@@ -72,7 +72,7 @@ This section examines how food trends evolve over time by comparing public curio
 *Weekly total YouTube views showing how audience attention scales and concentrates across different trend lifecycles.*
 
 ### Trend Lifecycle
-![Trend Lifecycle Spiral](Analysis_Plots/trend_plots2.png)
+![Trend Lifecycle Spiral](Analysis_Plots/lifecycle_spiral.png)
 *Spiral visualization summarizing the pace and duration of each trend's lifecycle, contrasting viral bursts with long term adoption*
 
 </details>
