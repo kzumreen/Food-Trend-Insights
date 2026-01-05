@@ -12,7 +12,7 @@ This is university capstone project exploring the lifecycle of digital food tren
 - [Geographic Diffusion](#geographic-diffusion)
 - [Sentiment and Discussion Analysis](#sentiment-and-discussion-analysis)
 - [Topic Modeling (LDA)](#topic-modeling-lda)
-- [Cross-Platform Comparison](#cross-platform-comparison)
+- [Cross-Platform Comparison](#cross-platform-analysis)
 
 ---
 
@@ -146,4 +146,31 @@ To uncover the core themes driving these trends, we applied **Latent Dirichlet A
 
 </details>
 
+<details id="cross-platform-analysis">
+<summary><strong>Cross-Platform Comparison & Predictive Modeling</strong></summary>
 
+This section synthesizes data from **Google Trends, YouTube, and Reddit** to identify how food trends ripple through different digital ecosystems. Our analysis reveals a distinct pattern: **Discovery (Search) $\rightarrow$ Amplification (Content) $\rightarrow$ Participation (Discussion).**
+
+### Cross-Platform Engagement Patterns
+![Cross Platform Comparison](Analysis_Plots/cross_analysis.png) 
+This section compares data from **Google Trends, YouTube, and Reddit** to identify how food trends ripple through different digital ecosystems. Our analysis reveals a distinct pattern: **Discovery (Search) $\rightarrow$ Amplification (Content) $\rightarrow$ Participation (Discussion).**
+
+### The Lifecycle Ripple Effect
+![Cross Platform Comparison](Analysis_Plots/cross_platform_comparison.png) 
+*This visualization depicts how public interest shifts across platforms, uncovering the "lag" between initial curiosity and community-level discussion.*
+
+#### Key Findings by Trend Lifecycle:
+* **Dubai Chocolate (The Recent Spike):** Exhibited a clear sequential spread. A dramatic increase in **Google Search (Feb 2025)** was followed by a peak in **YouTube Views (April 2025)** and finally **Reddit Comments (May 2025)**.
+* **Baked Feta Pasta (The Viral Burst):** Showed a highly condensed and synchronized cycle in early 2021. The global spike on Google Trends was followed almost immediately by Reddit and YouTube activity, characteristic of a short-lived viral phenomenon.
+* **Matcha & Air Fryer (Sustained Adoption):** These trends show steady, overlapping peaks over several years. **Air Fryer** peaked across Google and Reddit in Dec 2022, with YouTube following in Feb 2023, reflecting stable, utility-driven adoption rather than temporary novelty.
+
+### Statistical Correlation Across Platforms
+To quantify these relationships, we compared weekly activity levels using **Pearson Correlation Coefficients**. This statistical approach confirms that Google Search Interest typically captures the earliest rise in curiosity, acting as a leading indicator for content creation and community engagement.
+
+| Google vs. YouTube | Google vs. Reddit | YouTube vs. Reddit |
+| :---: | :---: | :---: |
+| ![Correlation 1](Analysis_Plots/youtube_pytrends.png) | ![Correlation 2](Analysis_Plots/pytrends_reddit.png) | ![Correlation 3](Analysis_Plots/youtube_reddit.png) |
+
+*These scatterplots demonstrate how changes in search interest correspond to changes in video engagement and community discussion. High Pearson coefficients in the early phases of a trend confirm that Google Trends typically captures the earliest rise in public curiosity, acting as a leading indicator for the other platforms.*
+
+</details>
