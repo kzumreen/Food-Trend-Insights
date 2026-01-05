@@ -125,16 +125,24 @@ We used the VADER (Valence Aware Dictionary and Sentiment Reasoner) lexicon to a
 <details id="topic-modeling-lda">
 <summary><strong>Topic Modeling (LDA)</strong></summary>
 
-Includes:
-- CountVectorizer preprocessing  
-- LDA model (K=5 selected for interpretability)  
-- Topic-word tables  
-- Topic distribution across trends  
+To uncover the core themes driving these trends, we applied **Latent Dirichlet Allocation (LDA)** to Reddit discussions. By selecting **$K=5$** topics, we were able to identify distinct "conversation pillars" that explain why some trends persist while others fade.
 
-What this section reveals:
-- What people **talk about most** for each trend  
-- Whether discussions focus on recipes, purchasing, health, culture, etc.  
-- How conversation themes evolve as trends grow or fade  
+### Thematic Keywords by Cluster
+![LDA Top Words](Analysis_Plots/lda_topic_top_words.png)
+*This visualization highlights the five distinct conversation pillars identified through LDA modeling. Our analysis reveals a clear divide in how users discuss different lifecycles:*
+
+* **Viral Novelty (Topic 4):** Discussions around **Dubai Chocolate** and **Baked Feta Pasta** are heavily centered on the "viral" nature of the items, with keywords like *feta, pasta, chocolate,* and *cake*.
+* **Routine & Preparation (Topics 0 & 1):** Sustained trends like **Matcha** and **Air Fryer** generate more diverse and practical discourse, focusing on ingredients and daily habits (e.g., *latte, protein, chicken, cottage cheese*).
+* **Experimentation (Topics 2 & 3):** Users frequently share "copycat" recipes and unconventional uses for tools like the Air Fryer (e.g., *pistachio, salad, potato*), showing how long-term trends evolve through community creativity.
+
+*Overall, these clusters prove that short-term viral trends are driven by novelty, while long-term trends sustain interest by integrating into broader, more diverse lifestyle conversations.*
+
+### Topic Mix by Trend & Evolution Over Time
+![Topic Mix](Analysis_Plots/topic_mix_stacked.png)
+*This stacked bar chart shows how the LDA topics are distributed across our focus trends. **Matcha** is dominated by Topic 1 (drink preparation), whereas **Dubai Chocolate** and **Feta Pasta** are almost entirely composed of Topic 4 (viral novelty). The **Air Fryer** shows the most diverse distribution across Topics 0, 2, and 3, marking it as a sustained long-term trend with multiple utility-based use cases.*
+
+![Topic over Time](Analysis_Plots/topic_over_time.png)
+*This plot tracks conversation shifts from 2015–2025. Around 2020–2021, Topic 4 (viral discussion) spiked dramatically, correlating with TikTok-inspired pandemic recipes. However, as that spike decayed, Topics 1 and 2 (Matcha and Air Fryer) continued to grow at a steady rate, showing that long-term trends persist by becoming part of everyday consumer behavior.*
 
 </details>
 
