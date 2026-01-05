@@ -106,15 +106,17 @@ We explored how digital food trends spread geographically and how adoption varie
 
 We used the VADER (Valence Aware Dictionary and Sentiment Reasoner) lexicon to analyze the tone of Reddit discussions. This allowed us to classify trends as long-term or short-lived based on whether community sentiment remained positive and diverse over time.
 
-### Sentiment Distribution and Evolution
-![Sentiment Distribution](Analysis_Plots/wordclouds.png)
-*This word cloud depicts the most frequently used terms for each trend, unocvering unique patterns that represent how users discuss food trends online. For feta pasta, these posts have an importance on recipe creation and virality with words like "tomato", "tiktok", and "baked". This reflects that feta pasta was a short term viral recipe. Matcha, on the other hand, has discussions that focus around preparation with terms like “ceremonial”, “powder”, and “latte”. This differs from feta pasta as matcha’s terms have more of an emphasis on everyday consumption rather than a short term viral trend. Meanwhile, Dubai Chocolate posts are more purchasing and spending forward than the other two, as they contain terms like “pistaschio”, “order”, and “pasabuy”.*
+### Thematic Word Clouds
+![Word Clouds](Analysis_Plots/wordclouds.png)
+*This word cloud depicts the most frequently used terms, uncovering unique patterns in how users discuss food trends. For **Feta Pasta**, terms like "tomato," "tiktok," and "baked" emphasize its identity as a short-term viral recipe. In contrast, **Matcha** discussions focus on ritual and preparation ("ceremonial," "powder," "latte"), reflecting its role as a lifestyle staple. **Dubai Chocolate** stands out with purchasing-forward terms like "order" and "pasabuy," highlighting its status as a sought-after luxury item.*
 
-![Sentiment Over Time](Analysis_Plots/sentiment_comparison.png)
-*This sentiment distribution shows that majority of the posts cluster near zero for all 3 trends, suggesting that most discussions are more neutral compared to strongly emotional. Matcha however, does have a wider spread toward positive sentiment. This may be due to Matcha’s associations with health and everyday consumption. On the other hand, Feta Pasta has slightly more negative posts, which may be due to a decline in enthusiasm after the trend faded. Dubai Chocolate has a narrow and modest positive sentiment implying that it has favorable but less engagement.*
+### Sentiment Distribution Analysis
+![Sentiment Distribution](Analysis_Plots/sentiment_comparison.png)
+*This distribution shows that while the majority of posts cluster near neutral (zero), **Matcha** exhibits a wider spread toward positive sentiment, likely due to its wellness associations. **Feta Pasta** displays a higher density of negative posts, reflecting the "trend fatigue" that set in after its 2021 peak. **Dubai Chocolate** shows a narrower, modest positive sentiment, indicating favorable but highly focused engagement.*
 
-![Score Distribution](Analysis_Plots/average_sentiment.png)
-*The average sentiment for each trend with daily sentiment scores and a 7 day rolling average shows that Matcha has a stable and slightly positive sentiment over time. This may be because matcha has been adapted into everyday routines and therefore has sustained its popularity. Feta pasta has changed drastically over time. It had a spike in 2021 when it was viral before dropping as the interest declined. The sentiment for Dubai Chocolate is still increasing in 2025, which shows the growing popularity of this continuing trend. The patterns seen in this plot show how long term trends are able to sustain positive sentiment, while short term viral trends have temporary peaks in enthusiasm before inevitably decaying.*
+### Sentiment Trends over Time
+![Sentiment over Time](Analysis_Plots/average_sentiment.png)
+*By tracking daily sentiment scores with a **7-day rolling average**, we can see the lifecycle in action. **Matcha** maintains a stable, positive baseline over years of data. **Feta Pasta** shows a massive spike during its viral window in 2021 followed by a steady decay. **Dubai Chocolate** shows a rising sentiment trajectory into 2025, marking it as a current "growth" trend.*
 
 </details>
 
