@@ -104,17 +104,10 @@ We explored how digital food trends spread geographically and how adoption varie
 <details id="sentiment-analysis">
 <summary><strong>Sentiment Analysis</strong></summary>
 
-Includes:
-- VADER sentiment scoring  
-- Distribution plots of positive/neutral/negative posts  
-- Rolling sentiment over time  
-- Comparisons across trends  
+We used the VADER (Valence Aware Dictionary and Sentiment Reasoner) lexicon to analyze the tone of Reddit discussions. This allowed us to classify trends as long-term or short-lived based on whether community sentiment remained positive and diverse over time.
 
-Key insights:
-- **Matcha** → consistently positive, steady cultural integration  
-- **Feta Pasta** → spike + rapid decline in sentiment after viral moment  
-- **Dubai Chocolate** → rising sentiment due to growing novelty  
-- **Air Fryer** → stable and neutral (utility-driven)  
+![Sentiment Distribution](Analysis_Plots/sentiment)
+*This plot illustrates the VADER sentiment scores for each trend. You can see the high positive spikes for Baked Feta Pasta during its viral peak compared to the steady, neutral-to-positive sentiment for the Air Fryer.*
 
 </details>
 
